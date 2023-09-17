@@ -1,0 +1,57 @@
+package.jso is configuration for projectnpm.
+there are two type of depency-
+        1- dev dependency-  require during development
+        2 normal -  require in production npm install -D parcel 
+
+package.json- ^, ~ keep nearby or lattest version
+packagelock.json- it keeps the exact version of dependency whih is installed
+
+
+
+npx - similar to npm(install a package) , executing a package
+
+
+Parcel - 
+        Dev build
+        HMR - Hot Module Replacement
+        File watching Algorithm (C++)
+        doing caching
+        iamge optimization
+        Bundling
+        compressing file(remove white space)
+        Differential Bundling to app to support older browser
+        Host in HTTPS
+        Tree shaking algorithm(remove unused code)
+        different build for production and dev🚀  
+
+parcel assign Babel to transpiles the jsx to javascript.
+
+
+
+React Fiber (Reconcilation Algo)- it find diff between the actual and virtual DOM, them change the actual DOM
+
+
+useEffect(callbackfunction, dependency array)
+ there are 3 cases 
+        1 - if there no dependencyarray then callback is called every  time, component is rendered
+        2- if there empty depency array then ,called back is called only initial render(1)
+        3- if there is [btnname] , then callback is called every time there is change in btnname
+
+HOOKS -  hooks are normal javascript fuction(utility function) that are given by react.
+        useSate -
+        useEffect-
+        useParam- (react Router Dom) for extracting path variable
+
+
+chunking,
+dynamic bundelling
+code splitting
+ lazy loading 
+
+
+ State Uplifting
+ Control and Uncontrol Compomnent - (control by parent - controlled componen), has use State,control by itself call uncontrolled component
+
+
+
+ 

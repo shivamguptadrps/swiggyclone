@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* 
+// import Carousel from "./Crousel";
+
+const [posterList,setPosterList]=useState([]);
+setPosterList(json?.data?.cards[0]?.card?.card?.imageGridCards?.info);
+{/* <Carousel items={posterList} />} */
